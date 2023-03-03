@@ -1,2 +1,2 @@
 # MemeShare
-## An android app to share memes developed using Volley API and Glide library.
+## An android app to see and share memes developed using Volley API and Glide library.
