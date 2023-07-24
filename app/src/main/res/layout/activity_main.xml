@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:visibility="gone"
+    tools:context=".MainActivity">
+
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="380dp"
+       android:layout_height="646dp"
+       android:background="@color/bgclr"
+       app:layout_constraintBottom_toTopOf="@id/sharebutton"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <ProgressBar
+       android:id="@+id/progressbar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toBottomOf="@id/imageView"
+       app:layout_constraintLeft_toLeftOf="@id/imageView"
+       app:layout_constraintRight_toRightOf="@id/imageView"
+       app:layout_constraintTop_toTopOf="@id/imageView">
+
+   </ProgressBar>
+
+   <Button
+       android:id="@+id/sharebutton"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/sharebutton"
+       android:onClick="sharememe"
+       android:padding="32dp"
+       android:text="@string/share"
+       android:textColor="@color/white"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toLeftOf="@id/guideline2" />
+
+   <Button
+       android:id="@+id/nextbutton"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/nextbutton"
+       android:onClick="nextmeme"
+       android:padding="32dp"
+       android:text="@string/next"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toRightOf="@id/guideline2"
+       app:layout_constraintRight_toRightOf="parent" />
+
+   <androidx.constraintlayout.widget.Guideline
+       android:id="@+id/guideline2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       app:layout_constraintGuide_percent="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

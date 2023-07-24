@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemeShare</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="download">Download</string>
+    <string name="explore_memes">explore memes</string>
+</resources>
