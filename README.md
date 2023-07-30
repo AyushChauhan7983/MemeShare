@@ -1,2 +1,2 @@
 # MemeShare
-## An android app to see and share memes developed using Volley API and Glide library.
+#### Introducing "Memeshare" - the ultimate memes sharing app with a secure biometric authentication system. Memeshare allows users to browse, discover, and share hilarious memes effortlessly. With cutting-edge biometric technology, users can unlock their meme collection using their unique fingerprint, ensuring a seamless and secure experience. It is developed using Volley API and Glide library.
